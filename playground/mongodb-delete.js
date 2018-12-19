@@ -26,11 +26,11 @@ MongoClient.connect(
     //   });
 
     //findOneanddelete
-    db.collection('Todos')
-      .findOneAndDelete({ completed: false })
-      .then(result => {
-        console.log(result);
-      });
+    // db.collection('Todos')
+    //   .findOneAndDelete({ completed: false })
+    //   .then(result => {
+    //     console.log(result);
+    //   });
 
     client.close();
   }
